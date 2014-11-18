@@ -11,3 +11,20 @@ body {
     margin-right: 10px;
 }
 
+span.glyphicon.glyphicon-thumbs-down:hover {
+	cursor: pointer;
+}
+
+span.glyphicon.glyphicon-thumbs-up:hover {
+	cursor: pointer;
+}
+
+main {
+	display:block;
+	background-image: url('../img/restaurant.png');
+	opacity: 0.9;
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
