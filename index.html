@@ -81,13 +81,13 @@
             <section>
                 <h2>Comments</h2>
 
-                <p>No comments yet. Be the first to comment!</p>
+                <p ng-if="tasks.length == 0">No comments yet. Be the first to comment!</p>
 
                 <!--
                 <table class="table">
                 !-->
 
-                <table style="width:50%">
+                <table ng-if="tasks.length != 0" style="width:50%">
                     <!--
                         And to retrieve scores in descending order:
                         curl -X GET \
